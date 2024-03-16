@@ -1,0 +1,13 @@
+<!-- prettier-ignore -->
+{% extends "base.html" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
+<main style="padding: 2rem">
+  <form action="/results" method="post" enctype="multipart/form-data">
+    <input required type="file" name="file" accept="text/*" />
+    <button type="submit">Submit</button>
+  </form>
+</main>
+{% endblock %}
