@@ -7,7 +7,7 @@ This is the template I use to start a new Flask project. It includes a basic str
 1. Clone the repository
 
 ```bash
-git clone https://github.com/DanielCaz/fask-template.git my_project
+git clone https://github.com/DanielCaz/flask-template.git my_project
 ```
 
 2. Replace git configuration
